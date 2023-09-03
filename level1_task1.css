@@ -1,0 +1,227 @@
+.gradient {
+    background-image: linear-gradient(to right, orange, rgb(244, 8, 173));
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.request {
+    border-radius: 10px;
+    border: 2px solid white;
+    background-image: transparent;
+    width: 200px;
+}
+
+.img-f {
+    background-image: radial-gradient(white, rgba(0, 0, 0, 0.1));
+    background-size: cover;
+}
+
+.gradient-2 {
+    background-image: linear-gradient(to right, orange, rgb(244, 8, 173));
+    background-color: white;
+    height: auto;
+    width: 100%;
+    color: white;
+    display: flex;
+    text-align: center;
+    padding-top: 40px;
+    background-color: transparent;
+
+}
+
+#readbox {
+    background-image: linear-gradient(to right, orange, rgb(244, 8, 173));
+    background-color: white;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+    width: 20px;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+h1 {
+    align-content: left;
+}
+
+p {
+    align-content: left;
+    word-wrap: break-word;
+}
+
+#img-t {
+    float: right;
+
+
+}
+
+.aboutus {
+    border-bottom: 2px gray solid;
+    width: 80%;
+}
+
+.main {
+    background-image: url("./meeting33.jpg");
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    opacity: 0.9;
+    background-clip: padding-box;
+    height: 500px;
+    background-size: cover;
+}
+
+.heading4:hover {
+    color: green;
+    border: 2px solid yellow;
+    border-radius: 10px;
+
+
+
+}
+
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.abcd {
+    width: 80%;
+
+}
+
+.gradient-2 div p {
+    width: 80%;
+}
+
+.gradient-2 div {
+    width: 80%;
+}
+
+.ourservices {
+    width: 80%;
+    border-top: 2px solid pink;
+
+}
+
+.amit section {
+    height: 50px;
+}
+
+.amit img {
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.amit section:hover {
+    color: white;
+    text-decoration: underline;
+    background-color: orange;
+}
+
+.amit a {
+    text-decoration: underline;
+    color: black;
+    line-height: 40px;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.amit {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 3fr;
+    background-color: lightblue;
+    height: 50px;
+}
+
+.ourservices {
+    background-color: white;
+    color: black;
+}
+
+.ourservices h1 {
+    margin-bottom: 4rem;
+}
+
+.fir {
+    display: flex;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    gap: 2rem;
+}
+
+.fir .first {
+    position: relative;
+    border-radius: 2rem;
+    box-shadow: 0 0 25rem black;
+    background-color: black;
+    overflow: visible;
+    display: flex;
+}
+
+.first img {
+    width: 30%;
+    transform: .5s ease;
+}
+
+.first img:hover {
+    border-color: lightblue;
+    transform: scale(1.04);
+    border: 2px black solid;
+}
+
+.first-first {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.first::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.first .first-first:hover {
+    border-color: black;
+    transform: scale(1.04);
+    align-items: center;
+
+}
+
+.first-first h1 {
+    font-size: 2rem;
+    margin: 0rem 0 1rem;
+    margin-right: 7rem;
+    margin-top: -5.1rem;
+    margin-right: 7rem;
+    margin-bottom: -5.5rem;
+
+}
+
+.first-first p {
+    font-size: 1.6rem;
+    margin: .3rem 0 1rem;
+    margin-right: 7rem;
+}
+
+.first-first a {
+    display: inline-flex;
+    justify-content: right;
+    align-items: center;
+    width: 4rem;
+    height: 4rem;
+    background: var(--main-color);
+}
+
+.first-first a i {
+    font-size: 2rem;
+    color: var(--second-bg-color);
+}
